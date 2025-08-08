@@ -1,5 +1,5 @@
 - name: remove existing app app_location
-  ansible.buitlin.file:
+  ansible.builtin.file:
     path: "{{ app_location }}"
     state: absent
   ignore_errors: true
